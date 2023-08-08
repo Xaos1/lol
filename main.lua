@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("xaos ez script", "Ocean")
+local Tab = Window:NewTab("Main")
+local MainSection = Main:NewSection("pizdez")
+MainSection:NewButton("prizvat amogusa", "(nichego ne delaet)", function()
+    print("Clicked")
+end)
